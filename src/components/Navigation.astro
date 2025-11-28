@@ -1,0 +1,59 @@
+---
+import red from "../assets/images/red.png";
+import blue from "../assets/images/blue.png";
+import green from "../assets/images/green.png";
+---
+
+<header class="header">
+    <nav>
+        <a href="index.html" class="andrew-name">
+            <span class="full-name">Andrew Asante Agyepong</span>
+        </a>
+        <div class="left-nav">
+            <a href="myself.html" aria-label="Myself">
+                <img
+                    src={red.src}
+                    alt="Myself"
+                    width="36"
+                    height="36"
+                    style="vertical-align:middle;"
+                />
+            </a>
+            <a href="contact.html" aria-label="Contact">
+                <img
+                    src={blue.src}
+                    alt="Contact"
+                    width="36"
+                    height="36"
+                    style="vertical-align:middle;"
+                />
+            </a>
+            <a href="portfolio.html" aria-label="Portfolio">
+                <img
+                    src={green.src}
+                    alt="Portfolio"
+                    width="36"
+                    height="36"
+                    style="vertical-align:middle;"
+                />
+            </a>
+        </div>
+    </nav>
+</header>
+
+<style>
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        padding: 20px 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        background-color: red;
+    }
+</style>

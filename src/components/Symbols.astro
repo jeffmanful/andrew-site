@@ -1,0 +1,51 @@
+<h1>Hi! I'm <span class="andrew-highlight">Andrew</span></h1>
+
+<div class="center-vertical">
+    <div class="links-container">
+        <a href="myself.html" class="link-item">
+            <div id="container3D-RED" class="model-container"></div>
+            Myself
+        </a>
+        <a href="contact.html" class="link-item">
+            <div id="container3D-BLUE" class="model-container"></div>
+            Contact
+        </a>
+        <a href="portfolio.html" class="link-item">
+            <div id="container3D-GREEN" class="model-container"></div>
+            Portfolio
+        </a>
+    </div>
+</div>
+
+<style>
+    a,
+    .link-item {
+        color: white;
+    }
+
+    .center-vertical {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .links-container {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .model-container {
+        width: 200px;
+        height: 200px;
+        min-width: 200px;
+        min-height: 200px;
+    }
+</style>
+
+<script>
+    import "../js/models.js";
+</script>
+
+<!-- <script type="module" src="../js/models.js"></script> -->
